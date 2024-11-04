@@ -1,0 +1,129 @@
+html, body {
+    margin: 0px;
+    background-color: #075418;
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    background-color: black;
+    color: rgb(210, 210, 30);
+    padding: 20px;
+    font-size: 50px;
+}
+.productos-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.productos{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+.productos img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carrito{
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(210, 210, 30);
+}
+
+
+h1{
+    text-align: center;
+    margin: 20px;
+    color: rgb(210, 210, 30);
+}
+
+
+#lista-carrito{
+    list-style: none;
+    padding: 0;
+}
+
+#lista-carrito li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    color: #fff;
+    font-size: 16px;
+}
+
+#lista-carrito li:last-child{
+    border-bottom: none;
+}
+
+.producto-en-carrito img{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.eliminar{
+    background-color:#fff ;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.eliminar:hover{
+    opacity: 0.7;
+}
+
+#total{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#tabla-productos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: black;
+    color: #fff;
+    border: 2px solid white;
+}
+
+#tabla-productos th,#tabla-productos td {
+    padding:15px;
+    text-align:left;
+    border-bottom:2px white;
+}
+
+#tabla-productos th {
+    background-color: black;
+    color:#f0db4f;
+    text-transform: uppercase;
+}
+
+#tabla-productos tr:hover {
+    background-color: #555;
+}
+
+

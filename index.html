@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Tienda Warhammer Fantasy</title>
+</head>
+<body>
+    <header class="titulo">
+        Tienda Warhammer Fantasy
+    </header>
+    
+    <div class="productos-container">
+        <div class="productos">
+            <img src="assets/img/archaon.jpg" alt="Archaon">
+            <h3>Archaon</h3>
+         </div>
+
+        <div class="productos">
+            <img src="assets/img/gotrek-y-felix.jpg" alt="Gotrek y Felix">
+              <h3>Gotrek y Felix</h3>
+         </div>
+
+         <div class="productos">
+             <img src="assets/img/ikit-klaw.jpg" alt="Ikit Klaw">
+             <h3>Ikit Klaw</h3>
+         </div>
+
+         <div class="productos">
+             <img src="assets/img/karl-franz.jpg" alt="Karl Franz">
+             <h3>Karl Franz</h3>
+         </div>
+
+        <div class="productos">
+            <img src="assets/img/malekit.jpg" alt="Malekit">
+             <h3>Malekit</h3>
+        </div>
+
+        <div class="productos">
+            <img src="assets/img/manfred.jpg" alt="Manfred">
+            <h3>Manfred</h3>
+        </div>
+
+        <div class="productos">
+            <img src="assets/img/Tyrion.jpg" alt="Tyrion">
+            <h3>Tyrion</h3>
+        </div>
+    </div>
+    
+    <div class="productos-containedor">
+        <!--aqui se añaden los productos-->
+    </div>
+
+    <h1>Inventario</h1>
+    <div id="contenedor">
+        <div id="tabla-contenedor">
+            <table id="tabla-productos" class="mitabla">
+                <tr>
+                    <th>id</th>
+                    <th>nombre</th>
+                    <th>precio</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div class="carrito">
+        <ul id="lista-carrito"></ul>
+        <p id="total">Total: $0.00</p>
+    </div>
+
+    <script src="assets/js/carrito.js"></script>
+    <script src="assets/js/api.js"></script>
+</body>
+</html>
